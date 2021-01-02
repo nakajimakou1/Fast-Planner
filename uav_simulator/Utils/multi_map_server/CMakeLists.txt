@@ -148,6 +148,7 @@ include_directories(${ARMADILLO_INCLUDE_DIRS})
 include_directories(include)
 include_directories(
   ${catkin_INCLUDE_DIRS}
+  ~/catkin_ws/src/Fast-Planner/uav_simulator/Utils/multi_map_server/msg_gen/cpp/include
 )
 
 ## Declare a cpp library
